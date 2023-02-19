@@ -1,0 +1,336 @@
+html{
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: black;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+   background-color: black;
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
+    position: relative;
+}
+.infoContainer{
+    /*background-color: rgb(9, 119, 11);*/
+   
+    
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    height: 60vh;
+    border-radius: 4rem;
+    border: 2px solid black;
+    margin-top: 6rem;
+    margin-right: 4rem;
+    
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+}
+.hello{
+    font-size: 4rem;
+    color: white;
+    margin-top: 6rem;
+    margin-left: 9rem;
+    
+}
+.info{
+    font-size: 3rem;
+    font-style: italic;
+    color: white;
+    margin-left: 3rem;
+}
+.name{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Rowdies', cursive;
+    color: white;
+    margin-left: 3rem;
+}
+.name span{
+    color: red;
+}
+.moreabout{
+   font-size: 1.5rem;
+    margin-top: 3rem;
+    color: white;
+    margin-left: 3rem;
+}
+.buttons{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem!important;
+}
+.nav-item a:hover{
+    text-decoration: underline;
+    color: white!important;
+}
+/********info*************/
+.servisemain{
+    width:100%;
+    height: 100vh;
+   
+    text-align: center;
+    background-color: azure;
+    background-size: 100% 100%;
+}
+.head{
+    padding-top: 3rem;
+}
+span{
+    color: darkblue;
+    font-weight: bold;
+}
+.Info{
+    margin-top: 4rem;
+}
+.names{
+    margin-top: 4rem;
+    
+    align-items: center;
+}
+.head{
+    font-size: 3rem!important;
+    color: orangered;
+    font-weight: bolder;
+}
+.first{
+    margin-top: 10rem;
+}
+.Info p{
+    font-size: 1.2rem!important;
+}
+/*************extra div css starts*****************/
+.extradiv{
+    width:100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+    position: relative;
+}
+.extradiv:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right:0;
+    z-index: -1;
+    background: linear-gradient(160deg, #121212 55%,#fff 0%);
+}
+.extra{
+    background: #fff;
+    border: medium none;
+    padding: 50px!important;
+    border-radius: 5px;
+    transition: 0.3s;
+    padding-bottom: 3rem!important;
+}
+.extra:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+.extradiv h1{
+    margin-bottom: 4rem!important;
+    
+}
+.extradiv h2{
+    margin-top: 2rem!important;
+}
+.extradiv p{
+    font-family: Arial, Helvetica, sans-serif!important;
+}
+.head2{
+    margin-top: 1rem!important;
+    margin-bottom: 2rem!important;
+    color: white;
+}
+/*<!--************************contact part css starts here*****************-->*/
+.contact{
+    height: 100vh;
+    width: 100%;
+    padding: 80px 0;
+    position: relative;
+}
+.contact:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right:0;
+    z-index: -1;
+    background: linear-gradient(330deg, #0c0d0d 55%,#fff 0%);
+}
+::placeholder{
+    font-size: 0.85rem;
+}
+.form-label{
+    font-weight: bold;
+}
+.check{
+    color: rgb(216, 107, 29);
+}
+/**********************footer******************/
+.footer-section{
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0;
+    background: #e98716;
+    position: relative;
+}
+.footer-section p{
+    color: #fff;
+}
+.footer-section li a{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer-section li a:hover{
+    color: #080707;
+}
+.footer-section h3{
+    text-transform: uppercase;
+    color:black;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem!important;
+    font-weight: 800;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+.social h3{
+    padding: 1rem 3rem;
+}
+.co{
+    color: #000!important;
+}
+/*.social h3{
+    color: yellow;
+    font-size: 28px;
+    padding: 10px 55px;
+    margin:8px;
+    font-family: 'Libre Baskerville', serif;
+}*/
+.social{
+    font-size: 2rem;
+    height:fit-content;
+    padding-left: 1rem;
+    
+}
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-linkedin ,.fa-facebook,.fa-telegram{
+    background: #007bb5;
+    color: white;
+}
+.fa {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    width: 3rem;
+    text-decoration: none;
+    margin: 0.5rem 1rem;
+    border: 1px solid #007bb5;
+    border-radius: 1rem;
+    cursor: pointer;
+    
+}
+a.fa.fa-facebook {
+    padding-right: 0.9rem;
+}
+.fa-linkedin{
+    padding-left: 1rem;
+}
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: #00abff;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+#myBtn:hover{
+    background-color: #606060;
+}
+/*******************media querey********************/
+@media(max-width: 768px){
+    .nav-item{
+        text-align: center!important;
+    }
+    
+}
+@media(max-width:992px){
+    .hello{
+        margin-top: 18rem;
+    }
+    .header{
+        width: 100%;
+        height: 100vh;
+       background-color: black;
+        background-size: 100% 100%;
+        position: relative;
+        clip-path: polygon(1% 0, 100% 0%, 99% 99%, 0% 100%);
+    }
+    .ghi{
+        margin-top: 0rem!important;
+    }
+    .servisemain{
+        height: fit-content;
+        margin-bottom: 5rem;
+    }
+    .footer-section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .namelast{
+        margin-left: 10rem;
+    }
+    .namecheck{
+        margin-top: 4rem;
+        margin-left: 6rem;
+    }
+    .namenav{
+        margin-top: 3rem;
+    }
+}
+@media(max-width:768px){
+    .img-fluid{
+        display: none;
+    }
+}
